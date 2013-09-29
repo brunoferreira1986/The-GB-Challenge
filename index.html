@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Informação Basica -->
+	<meta charset="utf-8">
+	<title>What I like about the technologies I use</title>
+	<meta name="description" content="This web page is detailing what I like about the technologies i'm using">
+	<meta name="author" content="Bruno Ferreira">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+		$('#nav').onePageNav({
+			begin: function() {
+			console.log('start');
+			},
+			end: function() {
+			console.log('stop');
+			},
+		scrollOffset: 0
+		});
+		
+		
+		
+	});
+	</script>
+	
+</head>
+<body>
+	<div class="wraper">
+		<div class="left">
+			<div class="navigationbar">
+    			<img src="images/logo.png" alt="logo">
+				<p class="title"><strong>What I like about the technologies I use?</strong><p>
+    			
+    			<nav class="clearfix" id="nav">
+					<ul class="clearfix">
+						<li class="current"><a href="#one">html5/CSS</a></li>
+						<li><a href="#two">iOS</a></li>
+						<li><a href="#three">Photography</a></li>
+					</ul>
+				</nav>
+				<footer>Bruno Ferreira @ 2013</footer>
+			</div>
+		</div>
+		<div class="right">
+			<div class="panel" id="one">
+				<section>
+					<div class="content">
+						<h1>html5/CSS</h1>
+						<div class="image">
+							<img src="images/html.png" alt="html">
+						</div>
+						<article>The html5 is a core technology of the Internet and I like the fact that with this technology I can build great webpages for the World Wide Web. By using the CSS3, I can design awesome pages, that don’t run only on a Desktop or Laptop, but also on a Smartphone or Tablet, by using the screen size to resizing the Web content for the device. This is a big plus for Mobile Computing because you don’t have to go native to develop awesome Apps.</article>
+					</div>
+				</section>
+			</div>
+			<div class="panel" id="two">
+				<section>
+					<div class="content">
+						<h1>iOS</h1>
+						<div class="image">
+							<img src="images/ios.png" alt="ios">
+						</div>
+						<article>What I like about the iOS is the fact that it’s a great operating system with a cool design and awesome applications. As user, you’ll have more choices at the AppStore that an Android or Windows Phone user has in there own market. As developer, if you spend some time learning Objective-C, you’ll create great Apps. The only thing, you need is a great idea. </article>
+					</div>
+				</section>
+			</div>
+			<div class="panel" id="three">
+				<section>
+					<div class="content">
+						<h1>Photography</h1>
+						<div class="image">
+							<img src="images/photography.png" alt="photography">
+						</div>
+						<article>I consider photography a technology because of his evolution. Today with a digital camera or a smartphone you can do a lot of stuff beside take the shot. You can edit, print, send via email, or even share in a social network. They are special SD cards that work with Wi-Fi to store all picture direct on your laptop. What I like about this technology is the fact that I can share the moments of my life with my family and friends. </article>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

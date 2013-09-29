@@ -1,0 +1,161 @@
+ /*Basic and background image*/
+
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+	min-width:960px;
+	
+	background: url('images/image01.jpg') no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;
+}
+
+
+ /*wraper*/
+
+.wraper{
+	height:100%;
+}
+
+.left {
+	position:fixed;
+	width: 30%;
+	min-width:288px;
+    float:left;
+	min-height:100%;
+	background-color: rgba(255, 255, 255, 1.0)
+}
+.right {
+	margin-left:30%;
+	min-height:100%;
+	min-width:672px;
+	
+  
+ }
+ 
+ /*logo*/
+img{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	padding-top: 20px;
+}
+
+/*titel*/
+.title{
+	margin-top:40px;
+	text-align:center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+ 
+ 
+ 
+/*navigation*/
+.navigationbar{
+	position:relative;
+}
+
+#nav li{
+	list-style: none; 
+}
+
+#nav a {
+	color: #000;
+	display:block;
+	height:50px;
+	line-height: 50px;
+	text-indent: 10px;                   
+	text-decoration:none;
+	width:100%;
+	border-bottom: 2px solid #007AFF;
+}
+
+#nav a:hover{
+	color:#007AFF;
+	border-bottom: 2px solid #007AFF;
+	background:#eee;
+}
+
+nav .current a {
+	color:#007AFF;
+	background:#eee;
+}
+
+ /*Section*/
+
+#one{
+
+	height:1000px;
+}
+#two{
+
+	height:1000px;
+}
+
+#three{
+
+	height:1000px;
+}
+
+section{
+	padding-top:200px;
+	
+}
+
+ /*Content Box*/
+
+.content{
+	width:60%;
+	height:400px;
+	margin-left:20%;
+	margin-right:20%;
+	padding:20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.8)
+
+}
+
+ /*Content*/
+ 
+.content h1{
+	color:#ffffff;
+	padding-bottom:20px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+article{
+	margin-top: 20px;
+	color:#ffffff;
+	text-align:justify;
+}
+
+.image img{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+
+
+ /*Footer*/
+footer{
+	position:fixed;
+	bottom:0px;
+	width:30%;
+	min-width:288px;
+	color:#8E8E93;
+	text-align:center;
+	padding-bottom: 10px;
+	font-size:9pt;
+}
